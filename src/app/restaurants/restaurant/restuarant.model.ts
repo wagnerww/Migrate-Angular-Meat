@@ -5,6 +5,6 @@ export interface Restaurant {
   imagePath: string;
   rating: number;
   deliveryEstimate: string;
-  about: string;
-  hours: string;
+  about?: string;
+  hours?: string;
 }
